@@ -18,7 +18,7 @@ const info1 = {
     ...info,
     salary: 2000,
     hair: "blond",
-    eyes: "brown"
+    eyes: "brown",
 }
 
 console.log(info1);
