@@ -22,3 +22,5 @@ const info1 = {
 }
 
 console.log(info1);
+
+

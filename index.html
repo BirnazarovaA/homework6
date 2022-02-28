@@ -7,7 +7,12 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <input type="text" class="i">
-        <button>Search</button>
+        <input type="text" id="input"> hello: <span id="result"></span>
+        <script>
+            input.oninput = function() {
+            result.innerHTML = input.value;
+            };
+        </script>
+
     </body>
 </html>
